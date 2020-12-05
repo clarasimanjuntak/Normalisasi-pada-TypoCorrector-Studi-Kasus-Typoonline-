@@ -3,6 +3,8 @@ from nltk.tokenize import RegexpTokenizer
 
 tokenizer = RegexpTokenizer(r'\w+')
 
-teks = "Kata kata yang ingin di token disasi"
-tokenisasi = tokenizer.tokenize(teks)
+teks = open("alice.txt", "r") 
+t = teks.read()
+
+tokenisasi = tokenizer.tokenize(t)
 print(tokenisasi)
