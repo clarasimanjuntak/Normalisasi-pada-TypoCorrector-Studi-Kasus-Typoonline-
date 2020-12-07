@@ -1,0 +1,1 @@
+Dokumen teks terdiri dari sekumpulan kalimat, proses tokenization memecah dokumen tersebut menjadi bagian-bagian kata yang disebut token. Melakukan tokenization bisa menggunakan library NLTK
