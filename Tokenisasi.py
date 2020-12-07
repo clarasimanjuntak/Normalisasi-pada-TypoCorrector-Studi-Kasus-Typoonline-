@@ -1,10 +1,7 @@
 import nltk
-from nltk.tokenize import RegexpTokenizer
 
-tokenizer = RegexpTokenizer(r'\w+')
+teks = open("doc.txt", "r")
+x = teks.read()
 
-teks = open("alice.txt", "r") 
-t = teks.read()
-
-tokenisasi = tokenizer.tokenize(t)
-print(tokenisasi)
+tokens = nltk.tokenize.word_tokenize(x)
+print(tokens)
